@@ -1,0 +1,59 @@
+---
+title: 'Gary Data - Data from the Gary Parcel Survey'
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gary Data - Data from the Gary Parcel Survey</title>
+  <link href='{{site.baseurl}}/site.css' rel='stylesheet' />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      var $content = $('#content');
+      var resize = function() {
+        var headerHeight = $('#header').height() + $('#page-title').height();
+        var viewportHeight = $(window).height();
+        var newHeight = viewportHeight - headerHeight;
+        console.log("Setting height", headerHeight, viewportHeight, newHeight, $('iframe'));
+        $('iframe').height(newHeight);
+        $content.height(newHeight);
+      };
+
+      //$( window ).resize(resize);
+      // resize();
+
+        $('#nav li').removeClass('selected');
+        $(this).parent().addClass('selected');
+    });
+  </script>
+</head>
+<body>
+
+  <div class="all">
+    <div class="tophead">
+      <a href="#">City of Gary</a>
+      <a href="#">Harris School of Public Policy</a>
+      <a href="#">LocalData</a>
+    </div>
+
+    <div class="out">
+      <div class="header">
+        <h1>
+        Gary Data Counts
+        <!-- <img src="{{site.baseurl}}/img/garydata.png" height="75" alt="">-->
+        </h1>
+        <ul id="nav">
+          <li><a href="{{site.baseurl}}/" class="overview">Overview</a></li>
+          <li><a href="{{site.baseurl}}/map" class="overview">Explore the map</a></li>
+          <li><a href="{{site.baseurl}}/reports" class="reports">Data &amp; Reports</a></li>
+          <li><a href="{{site.baseurl}}/about" class="about">About</a></li>
+        </ul>
+      </div>
+
+      {{content}}
+    </div>
+  </div>
+
+</body>
+</html>

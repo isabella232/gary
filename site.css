@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "NeuzeitOfficeW01-Regula";
+  src: url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/regular/regular.eot?#iefix");
+  src: url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/regular/regular.eot?#iefix") format("eot"), url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/regular/regular.woff") format("woff"), url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/regular/regular.ttf") format("truetype"), url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/regular/regular.svg#85050462-ab1f-4478-a289-36eed1d3c53f") format("svg"); }
+@font-face {
+  font-family: "Neuzeit Office W01 Bold";
+  src: url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold/bold.eot?#iefix");
+  src: url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold/bold.eot?#iefix") format("eot"), url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold.woff") format("woff"), url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold/bold.ttf") format("truetype"), url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold/bold.svg#d4cb246e-742d-4269-9f6a-901a050ff03f") format("svg"); }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: NeuzeitOfficeW01-Regula, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+}
+
+body {
+  background: #fff url(./img/noise.png) repeat left top;
+  color: #6e6663;
+}
+
+h1 {
+  font-family: Neuzeit Office W01 Bold, Helvetica Neue, sans-serif;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 60px;
+}
+
+.full h2 {
+  padding: 20px;
+}
+
+h3 {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 32px;
+  max-width: 600px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #336699;
+}
+
+.all {
+  background: #58aeff url(./img/team-small-crop.jpg) no-repeat center top;
+  background-size: 100% auto;
+  overflow: auto;
+}
+
+.out {
+  margin: 200px 10% 50px;
+  background: #fff;
+  box-shadow: 1px 1px 1px 1px rgba(51,51,51,0.25);
+}
+
+.tophead {
+  margin: 20px 10%;
+}
+
+.tophead a {
+  color: #fff;
+  border-bottom: 1px dotted #fff;
+}
+
+.header {
+  overflow: auto;
+  background: #58aeff;
+  padding: 20px 50px 0px;
+}
+
+.content {
+  padding: 50px;
+  background: #fff;
+  font-size: 16px;
+  height: 100%;
+  border-top-width: 0;
+}
+
+.content.full {
+  margin-left: 0;
+}
+
+p {
+  padding: 10px 0 10px 0;
+  max-width: 600px;
+  line-height: 1.4;
+}
+
+iframe {
+  border: 0;
+}
+
+#nav {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  border-top: 1px dotted #fff;
+  margin-top: 20px;
+}
+
+#nav li {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+#nav li a {
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 40px;
+}
+
+#nav li.selected a {
+  background: #fff;
+  color: #bf7300;
+}
