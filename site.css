@@ -23,10 +23,10 @@ body {
 }
 
 h1 {
-  font-family: Neuzeit Office W01 Bold, Helvetica Neue, sans-serif;
+  ffont-family: Neuzeit Office W01 Bold, Helvetica Neue, sans-serif;
   text-align: center;
   color: #fff;
-  padding: 10px;
+  font-size: 60px;
 }
 
 h2 {
@@ -42,7 +42,6 @@ h3 {
   padding-top: 20px;
   font-weight: bold;
   font-size: 32px;
-  max-width: 600px;
 }
 
 a {
@@ -55,24 +54,27 @@ a:visited {
 }
 
 .all {
-  background: #58aeff url(./img/team-small-crop.jpg) no-repeat center top;
+  background: transparent url(./img/team-small-crop.jpg) no-repeat center -4vh;
   background-size: 100% auto;
   overflow: auto;
 }
 
 .out {
-  margin: 200px 10% 50px;
+  margin: 20vw 10% 25px;
   background: #fff;
   box-shadow: 1px 1px 1px 1px rgba(51,51,51,0.25);
 }
 
 .tophead {
-  margin: 20px 10%;
+  margin: 20px 10% 30px;
+  text-align: center;
 }
 
 .tophead a {
   color: #fff;
   border-bottom: 1px dotted #fff;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .header {
@@ -95,9 +97,15 @@ a:visited {
 
 p {
   padding: 10px 0 10px 0;
-  max-width: 600px;
+  width: 60%;
   line-height: 1.4;
 }
+  img {
+    float: right;
+    width: 39%;
+    clear: both;
+    margin-bottom: 10px;
+  }
 
 iframe {
   border: 0;
@@ -129,4 +137,48 @@ iframe {
 #nav li.selected a {
   background: #fff;
   color: #bf7300;
+}
+
+@media only screen
+and (max-width : 1100px) {
+  .out {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .header {
+    padding: 20px;
+  }
+
+  #nav li a {
+    padding: 10px;
+  }
+}
+
+@media only screen
+and (max-width : 768px) {
+  .content {
+    padding: 20px;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  img {
+    float: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 40px;
+    line-height: 1em;
+  }
+
 }
