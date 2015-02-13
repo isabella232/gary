@@ -23,15 +23,18 @@ body {
 }
 
 h1 {
-  ffont-family: Neuzeit Office W01 Bold, Helvetica Neue, sans-serif;
+  font-family: Neuzeit Office W01 Bold, Helvetica Neue, sans-serif;
   text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #0571b0;
+  letter-spacing: 1px;
   color: #fff;
   font-size: 60px;
 }
 
 h2 {
-  font-weight: normal;
-  font-size: 60px;
+  font-family: Neuzeit Office W01 Bold, Helvetica Neue, sans-serif;
+  font-size: 40px;
 }
 
 .full h2 {
