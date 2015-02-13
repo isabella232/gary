@@ -171,6 +171,49 @@ and (max-width : 1100px) {
   }
 }
 
+
+/* Forms ========= */
+label {
+  display: block;
+}
+
+select option {
+  font-size: 1rem;
+  font-family: NeuzeitOfficeW01-Regula, Helvetica Neue, sans-serif;
+}
+
+input[type='text'],
+input[type='email'] {
+  border: 2px solid #d3d3d3;
+  font-size: 1rem;
+  margin-bottom: 1em;
+  min-width: 300px;
+  padding: 5px;
+}
+
+textarea {
+  width: 50%;
+  font-size: 1rem;
+  border: 2px solid #d3d3d3;
+  min-width: 300px;
+  padding: 5px;
+}
+
+button {
+  background: #0571b0;
+  color: #fff;
+  height: 3rem;
+  font-size: 1rem;
+  border: 0px none;
+  line-height: 3rem;
+  padding: 0px 12px;
+  cursor: pointer;
+  font-family: Neuzeit Office W01 Bold, Helvetica Neue, sans-serif;
+}
+
+
+/* Responsive =============== */
+
 @media only screen
 and (max-width : 768px) {
   .content {
