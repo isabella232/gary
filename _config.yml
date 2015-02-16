@@ -1,11 +1,11 @@
-baseurl: /gary
+baseurl: /
 permalink: pretty
 markdown: rdiscount
 prose:
   rooturl: '_posts'
   siteurl: 'http://localdata.github.io/gary/'
   relativeLinks: 'http://localdata.github.io/gary/links.jsonp'
-  media: '/gary/media'
+  media: '/gary'
   metadata:
     _posts:
       - name: "category"
