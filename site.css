@@ -5,7 +5,7 @@
 @font-face {
   font-family: "Neuzeit Office W01 Bold";
   src: url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold/bold.eot?#iefix");
-  src: url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold/bold.eot?#iefix") format("eot"), url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold.woff") format("woff"), url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold/bold.ttf") format("truetype"), url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold/bold.svg#d4cb246e-742d-4269-9f6a-901a050ff03f") format("svg"); }
+  src: url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold/bold.eot?#iefix") format("eot"), url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold/bold.woff") format("woff"), url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold/bold.ttf") format("truetype"), url("http://localdata-static.s3-website-us-east-1.amazonaws.com/fonts/neuzeit/bold/bold.svg#d4cb246e-742d-4269-9f6a-901a050ff03f") format("svg"); }
 
 * {
   margin: 0;
