@@ -196,6 +196,8 @@ textarea {
   border: 2px solid #d3d3d3;
   min-width: 300px;
   padding: 5px;
+  display: block;
+  margin-bottom: 1rem;
 }
 
 button {
